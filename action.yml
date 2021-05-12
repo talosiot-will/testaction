@@ -1,0 +1,9 @@
+name: Talos test action
+author: Will gathright <wgathright@talosiot.com>
+description: Test running a github action from a repo
+jobs:
+    myjob:
+        runs-on: ubuntu-latest
+        steps: 
+        - name: Please run this
+          run: echo "Please run this pretty please."
